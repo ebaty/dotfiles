@@ -505,13 +505,6 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'rbong/vim-flog'
     " }}}
 
-    " UltiSnips {{{
-        Plug 'SirVer/ultisnips' " Snippets plugin
-        let g:UltiSnipsExpandTrigger="<C-l>"
-        let g:UltiSnipsJumpForwardTrigger="<C-j>"
-        let g:UltiSnipsJumpBackwardTrigger="<C-k>"
-    " }}}
-
     " coc {{{
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -527,7 +520,6 @@ call plug#begin('~/.config/nvim/plugged')
         \ 'coc-vimlsp',
         \ 'coc-emmet',
         \ 'coc-prettier',
-        \ 'coc-ultisnips',
         \ 'coc-explorer',
         \ 'coc-diagnostic'
         \ ]
